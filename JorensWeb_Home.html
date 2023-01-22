@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorens Web - Home</title>
+    <link rel="stylesheet" href="JorensWeb_Home.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="#">Jorens Web</a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="C:\Users\Joren\Desktop\Eigen HTML websites\Jorens Website\JorensWeb_Home.html">Home</a></li>
+        <li><a href="C:\Users\Joren\Desktop\Eigen HTML websites\Jorens Website\JorensWeb_Skillsets.html">Skillsets</a></li>
+        <li><a href="#">Give me feedback</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner"></div>
+  <div class="about">
+ <div class="content">
+      <div class="title">"Who is this guy?"</div>
+	  <h2>Introduction</h2>
+      <p> Hello! My name is Joren Jacobs and I welcome you to my personal website! Please feel free to take a look around and explore what I might have to offer you! </p>
+	  <p></p>
+	  <h3>My hakuna matata</h3>
+	  <p>No matter how big or small. Everyone has his/her/... story. When I was younger I thought "I was made to fail". Nowadays I know that nothing is less true! </p>
+	  <p> I can't wait to see what fate has in store for us.I am 100% confident I will make the best of every situation laid before me! For we , as humans, have one true superpower: the power of choice! </p>
+	  <p></p>
+	  <h3>My story is your story </h3>
+	  <p>As a person who likes to think that he knows what he wants, I also certainly know what I don't want. I want to build. I believe in both the strength of an individual as well as the power through teamwork! I'm definetly not shy to team up with like-minded people. The goal is to build the world around us and improve our own invidual skills and personality in the process!</p>
+	  <p> </p>
+	  <h3> What is this actually website for?</h3>
+	  <p> With the power of HTML, CSS and Javascript I enthousiasticly created this online hub for people to get to know me better in a rather professional way. One of my many motivations is to inspire and be inspired. This is my personal way of profilizing myself on the wide web.("Tinder wasn't quite the right platform for this kind of social engagement ;)") I'd love to hear any feedback you might have for me in the destinated section! If you would like to work with me, don't hestitate of using the "contact" page. Who knows, maybe a future us will be working together?! </p>
+	 <p> </p>
+	 <h3> Do I have hobbies?</h3>
+	  <p>  Unfortunatly there are just 24 hours a day and 7 days a week. So chosing is losing. That counts for spare time activities as well! I have to confess that I often tend to look for variety. Even with the things I do for fun. I'm not the kind of person who get fulfilment by staying in the same place I was yesterday. A good challenge is what I love as much in my personal life as I do on a professional level.</p>
+      <p>  To provide some examples of this:</p>
+	  <p>  A) During my studies as an IT student, I worked as a volunteer with children between the ages of 3 to 18. I started with Kazou Limburg (children of ages 6-12) and grew to a handfull of nonprofit organizations! Up until today ,I take much joy to give children opportunities to have fun and grow.</p>
+      <p>  B) I am a fan of practising sports. Whether it's taking the time to blow of some steam or just getting some  dopamine - and endorfine rushes to stay healthy. Both physically and mentally! My most practised sports are currently: Swimming, Fitness, Krav maga, Biking and running. Be warned that the amount, variety or intensity might change from time to time!</p>
+		<p>C) Last but not least I love socializing of any kind. From crowded parties to having a good time one on one, I'm up for all of it from time to time. </p>
+	</div>
+  </div>
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menu = document.querySelector(".menu-list");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      menu.classList.add("active");
+      menuBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+      body.classList.add("disabledScroll");
+    }
+    cancelBtn.onclick = ()=>{
+      menu.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      body.classList.remove("disabledScroll");
+    }
+
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+</body>
+</html>
