@@ -25,6 +25,7 @@ body {
 
 .Starimg {
 	  height: 35px;
+	width: 35px;
 }
 .hero-image {
   background-image: url("./Imgs/Mijnfoto.png");
