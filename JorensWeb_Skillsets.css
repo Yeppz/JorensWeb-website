@@ -27,7 +27,7 @@ body {
 	  height: 35px;
 }
 .hero-image {
-  background-image: url("./Imgs/Mijnfoto.png");
+  background-image: url("./images/Mijnfoto.png");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
