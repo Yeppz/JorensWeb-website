@@ -29,12 +29,12 @@ body {
 	width: 35px;
 }
 .hero-image {
-  background-color: #000000;
   background: url("./assets/images/FotoKaper.PNG");
   height: 715px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  background-color: #000000;
 }
 
 .hero-text {
@@ -43,7 +43,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #FFFFFF;
 }
 
 .content{
@@ -70,7 +70,7 @@ body {
 }
 /* Linksboven titel "Jorens Web"*/
 .navbar .logo a{
-  color: white;
+  color: #FFFFFF;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -83,7 +83,7 @@ body {
 }
 /* De menubalk (en de tekst erin obv)*/
 .menu-list li a{
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -169,8 +169,8 @@ body {
 }
 
 .dropbtn {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #FFFFFF;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -179,7 +179,7 @@ body {
 
 .TripleSkills {
 	  background-color: #00008B;
-	color: white;
+	color: #FFFFFF;
 	  padding: 16px;
   font-size: 16px;
 	border-style: hidden;
@@ -191,8 +191,8 @@ body {
 padding-bottom: 10%;
 }
 footer {
-		  background-color: black;
-		  color: white;
+		  background-color: #000000;
+		  color: #FFFFFF;
 		  font-size: 14px;
 		  text-align: right;
 }
@@ -207,7 +207,7 @@ table {
         }
         table td {
             padding: 0.5rem;
-            border: 5px solid black;
+            border: 5px solid #000000;
         }
         table th {
             padding: 0.5rem;
