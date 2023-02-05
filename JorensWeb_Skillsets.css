@@ -21,6 +21,7 @@
 
 body {
   margin: 0;
+
 }
 
 .Starimg {
@@ -28,12 +29,11 @@ body {
 	width: 35px;
 }
 .hero-image {
-  background-image: url("./Imgs/Mijnfoto.png");
-  background-color: #cccccc;
-  height: 500px;
+  background-color: black;
+   background-image: url("./assets/images/FotoKaper.png");
+  height: 715px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -52,8 +52,7 @@ body {
   padding: 0px 30px;
 }
 .navbar{
-  position: static;
-  background-color:black;
+  position: fixed;
   z-index: 5;
   width: 100%;
   padding: 15px 0;
@@ -168,3 +167,48 @@ body {
     font-size: 23px;
   }
 }
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.TripleSkills {
+	  background-color: #00008B;
+	color: white;
+	  padding: 16px;
+  font-size: 16px;
+	border-style: hidden;
+}
+
+.tablediv {
+	padding-left: 15%;
+	padding-right: 15%;
+padding-bottom: 10%;
+}
+footer {
+		  background-color: black;
+		  color: white;
+		  font-size: 14px;
+		  text-align: right;
+}
+
+table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border-style: hidden;
+            /*Remove all the outside
+            borders of the existing table*/
+			text-align: center;
+        }
+        table td {
+            padding: 0.5rem;
+            border: 5px solid black;
+        }
+        table th {
+            padding: 0.5rem;
+            bord
