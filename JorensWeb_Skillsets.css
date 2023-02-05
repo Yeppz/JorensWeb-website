@@ -30,7 +30,7 @@ body {
 }
 .hero-image {
   background-color: black;
-   background-image: url("assets/images/FotoKaper.png");
+   background-image: url("/assets/images/FotoKaper.png");
   height: 715px;
   background-position: center;
   background-repeat: no-repeat;
