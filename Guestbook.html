@@ -26,6 +26,26 @@
   </nav>
   
   Under construction!
+  
+
+    <header>
+      <h1>Guestbook</h1>
+    </header>
+    <section>
+      <h2>Leave a message</h2>
+      <form id="message-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <h2>Previous messages</h2>
+      <ul id="messages"></ul>
+    </section>
+    <script src="app.js"></script>
 
   <script>
     const body = document.querySelector("body");
